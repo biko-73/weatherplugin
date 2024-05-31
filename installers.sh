@@ -7,8 +7,8 @@ version=v-1.4
 #########################################################
 
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
-MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE'/'$version.tar.gz
-MY_TMP_FILE="/tmp/"$MY_FILE'/'$version.tar.gz
+MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE'_'$version.tar.gz
+MY_TMP_FILE="/tmp/"$MY_FILE'_'$version.tar.gz
 
 rm -f $MY_TMP_FILE > /dev/null 2>&1
 
