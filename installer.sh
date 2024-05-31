@@ -36,7 +36,8 @@ if [ -f $MY_TMP_FILE ]; then
 	if [ $MY_RESULT -eq 0 ]; then
         echo "##########################################################"
         echo "#    weatherplugin $version INSTALLED SUCCESSFULLY            #"
-        echo "#                BY BIKO - support on                    #"
+        echo "#             upload BY BIKO - support on                #"
+        echo "#                    Mod by Fairman                      #"	
         echo "#  https://www.tunisia-sat.com/forums/threads/3181413/   #"
         echo "##########################################################"
         echo "#           your Device will RESTART Now                 #"
