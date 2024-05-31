@@ -12,7 +12,7 @@ MY_TMP_FILE="/tmp/"$MY_FILE'_'$version.tar.gz
 
 rm -f $MY_TMP_FILE > /dev/null 2>&1
 
-MY_SEP='============================================================='
+MY_SEP='========================================'
 echo $MY_SEP
 echo 'Downloading '$MY_FILE' ...'
 echo $MY_SEP
